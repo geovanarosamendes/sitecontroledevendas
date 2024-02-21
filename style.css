@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+html{
+    height: 300vh; 
+}
+
+body{
+    background-image: url("img/GM_logo.png");
+    background-color: rgb(74, 65, 153);
+    background-repeat: no-repeat;
+    background-position: top 200px center ;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .conteiner{
+    width: 100%;
+    padding: 7% 100px;
+}
+
+header ul li{
+    text-align: center;
+    
+}
+
+/*li{
+    float: left;
+    margin: 15px;
+    padding: 35px left;
+   
+}*/
+
+header nav li{
+    display: inline-block;
+    float: left;
+    margin: 15px;
+    padding: 35px left;
+}
+
+header ul {
+    list-style-type: none;
+   
+}
+
+section{
+    padding: 26% 620px;
+    font-style: oblique;
+    font-size: small;
+    font-family: serif;
+    color: aliceblue;
+
+}
+
